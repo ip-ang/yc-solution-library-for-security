@@ -1,4 +1,4 @@
-FROM python:3.9.10-slim
+FROM python:3.9-slim
 # docker build нужно запускать из папки auditlogs чтобы был правильный контекст при подборе include файлов
 # пример docker build команды: 
 # docker build -t k8s-events-siem-worker:latest -f ./export-auditlogs-to-ELK_k8s/k8s-events-siem-worker/2.0.0/Dockerfile .
