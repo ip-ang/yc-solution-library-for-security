@@ -1,4 +1,4 @@
-FROM python:3.9.1-slim
+FROM python:3.9-slim
 RUN apt-get update
 # docker build нужно запускать из папки export-auditlogs-to-Splunk чтобы был правильный контекст при подборе include файлов
 # пример docker build команды: 
